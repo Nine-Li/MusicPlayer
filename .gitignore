@@ -2,6 +2,7 @@ AGENTS.md
 MDK-ARM/.vscode/
 MDK-ARM/DebugConfig/
 MDK-ARM/RTE/
+.mxproject
 *.scvd
 *.lst
 *.crf
