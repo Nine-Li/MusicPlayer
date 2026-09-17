@@ -1,4 +1,4 @@
-# Nine_Li_MusicPlayer
+# MusicPlayer
 
 基于 **STM32F407ZGTx** 的 FreeRTOS 音乐播放器：从 SD 卡读取 MP3，经 minimp3 解码后由 I2S + WM8978 输出，并提供一个串口命令行（ucmd）用于控制播放与调试。
 
