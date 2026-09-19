@@ -4,7 +4,7 @@
 
 ## 功能特性
 
-- FreeRTOS 多任务调度，中断/DMA 驱动，串口、SDIO、I2S、I2C 全部 DMA 化
+- FreeRTOS 多任务调度，中断/DMA 驱动，串口、SDIO、I2S 全部 DMA 化
 - SD 卡 FAT/FAT32/exFAT 文件系统（FatFs R0.15，长文件名，UTF-8）
 - MP3 软解码（minimp3），按帧采样率自动重配 PLLI2S / I2S
 - WM8978 编解码器（I2C1 控制，I2S2 数据），耳机输出
@@ -21,7 +21,7 @@
 | 串口控制台 | USART1：PA9(TX) / PA10(RX)，115200-8N1 |
 | SD 卡 | SDIO 4-bit：PC8-PC12、PD2 |
 | 音频 | I2S2：PC6(MCLK)、PB12/PB13/PB15(WS/CK/SD)；WM8978 控制 I2C1：PB8(SCL)/PB9(SDA) |
-| 指示灯 | LED：PF9 / PF10（低电平点亮） |
+| 指示灯 | LED：PF9 / PF10（低电平点亮）（！！！LED配置有误，不是PF9和PF10） |
 | 存储 | Flash 1 MB @ 0x08000000；RAM 112 KB + 16 KB |
 
 ## 软件架构
